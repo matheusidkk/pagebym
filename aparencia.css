@@ -1,0 +1,267 @@
+body 
+{
+background-image:url(https://scontent.fpoa8-1.fna.fbcdn.net/v/t1.15752-9/240921697_580167373005831_24434950052092591_n.png?_nc_cat=100&ccb=1-5&_nc_sid=ae9488&_nc_eui2=AeEnmbVTUgdi9j0Kqae2cwbivZBPztEMtii9kE_O0Qy2KOfT-QNnG0XZr8O33bZJILhgrRWCQtRYpJktERCqWWew&_nc_ohc=XF-hq2cU6eUAX9zNZ6d&_nc_ht=scontent.fpoa8-1.fna&oh=eb0bd24c60dc9df00864d099d917c1d9&oe=61534A44);
+}
+
+.whitebox
+{
+position: absolute;
+margin: auto;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+width: 420px;
+height: 500px;
+background-color: rgba(255, 255, 255, 0.678);
+border-radius: 20px;
+box-shadow: 3px 3px 7px rgb(105, 33, 46);
+z-index: 2;
+display: flex;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.dentrobox
+{
+opacity: 100%;
+}
+
+.chernobym
+{
+position: absolute;
+margin: auto;
+top: 10px;
+bottom: 0;
+left: 35px;
+right: 0;
+font-family: lobster;
+font-size: 80px;
+z-index: 3;
+text-shadow: 3px 3px 7px rgba(105, 33, 46, 0.63);
+}
+
+h2
+{
+position: absolute;
+margin: auto;
+top: 330px;
+bottom: 0;
+left: 0;
+right: 0;
+font-size: 18px;
+opacity: 50%;
+z-index: 3;
+}
+
+.login
+{
+position: absolute;
+margin: auto;
+top: 0px;
+left: 0;
+bottom: 180px;
+right: 0;
+height: 40px;
+width: 250px;
+border-radius: 20px 20px 5px 5px;
+background-color: rgb(255, 238, 241);
+border-style: none;
+text-align: center;
+font-size: 110%;
+color:rgb(105, 33, 46);
+box-shadow: 3px 3px 7px rgb(255, 185, 198);
+z-index: 4;
+transition: 0.25s;
+}
+        .login:focus
+        {
+        width: 280px;
+        outline: none;
+        }
+
+
+.senha
+{
+position: absolute;
+margin: auto;
+top: 0px;
+left: 0;
+bottom: 75px;
+right: 0;
+height: 40px;
+width: 250px;
+border-radius: 5px 5px 20px 20px;
+background-color: rgb(255, 238, 241);
+border-style: none;
+text-align: center;
+font-size: 110%;
+color:rgb(105, 33, 46);
+box-shadow: 3px 3px 7px rgb(255, 185, 198);
+z-index: 4;
+transition: 0.25s;
+}
+        .senha:focus
+        {
+            width: 280px;
+            outline: none;
+        }
+
+
+.lembrarlogin
+{
+position: absolute;
+top: 245px;
+left: 100px;
+bottom: 0;
+right: 0;
+z-index: 5;
+}
+
+.lembrarlogin2
+{
+position: absolute;
+margin: auto;
+top: 246px;
+bottom: 0;
+left: 120px;
+right: 0;
+font-family: Arial;
+font-size: 15px;
+color:rgb(105, 33, 46);
+z-index: 3;
+text-shadow: 3px 3px 7px rgba(105, 33, 46, 0.411);
+}
+  
+.entrar
+{
+position: absolute;
+margin: auto;
+top: 130px;
+left: 0;
+bottom: 0px;
+right: 0;
+height: 60px;
+width: 260px;
+border-radius: 20px 20px 20px 20px;
+background-color: rgb(255, 238, 241);
+border-style: none;
+font-size: 120%;
+color:rgb(105, 33, 46);
+box-shadow: 3px 3px 7px rgb(255, 185, 198);
+cursor: pointer;
+z-index: 5;
+}
+    .entrar:hover
+    {
+    animation-name: enter;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    }
+        @keyframes enter 
+        {
+            0%
+            {
+            height: 60px;
+            width:260px;
+            }
+                100%
+                {
+                height: 14%;
+                width: 64%;
+                font-size: 132%;
+                }
+        }
+
+                    .entrar:not(:hover)
+                    {
+                    animation-name: notenter;
+                    animation-duration: 0.3s;
+                    animation-fill-mode: forwards;
+                    }
+                        @keyframes notenter
+                        {
+                            0%
+                            {
+                            height: 14%;
+                            width: 64%;
+                            font-size: 132%;
+                            }
+
+                                100%
+                                {
+                                height: 60px;
+                                width:260px;
+                                }
+                        }
+
+
+.register
+{
+position: relative;
+margin: auto;
+top: 300px;
+bottom: 0;
+left: 760px;
+right: 0;
+font-size: 18px;
+font-family: Arial;
+text-decoration: none;
+color:rgb(105, 33, 46);
+z-index: 3;
+text-shadow: 3px 3px 7px rgba(105, 33, 46, 0.411);
+}
+
+.linha
+{
+position: absolute;
+top: 390px;
+bottom: 0;
+left: 0;
+right: 0;
+height: 1px;
+width: 350px;
+z-index: 3;
+}
+
+.sociais
+{
+position:relative;
+top: 190px;
+transform: scale(0.22);
+display: flex;
+flex-direction: row;
+z-index: 6;
+}
+        .facebook
+        {
+            margin-right: 100px;
+        }
+
+        .insta
+        {
+            margin-right: 100px;
+        }
+
+        .twitter
+        {
+            margin-right: 100px;
+        }
+
+
+
+    .baixar
+    {
+    position: absolute;
+    margin: auto;
+    top: 350px;
+    bottom: 0;
+    left: 950px;
+    right: 0;
+    transform: scale(0.4);
+    z-index: 6;
+    }
+
+    
